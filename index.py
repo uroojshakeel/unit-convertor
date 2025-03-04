@@ -126,10 +126,10 @@ st.markdown(
 # title and discription
 
 st.markdown("<h1> Unit Convertor  </h1>", unsafe_allow_html=True)
-st.write("Easily convert batween different units of length , wight, and temperature.")
+st.write("Easily convert batween different units of length , weight, and temperature.")
 
 # slide bar menu
-conversion_type = st.sidebar.selectbox("Choose conversion type", ["Length", "Wight", "Temperature"])
+conversion_type = st.sidebar.selectbox("Choose conversion type", ["Length", "Weight", "Temperature"])
 value = st.number_input("Enter Value", value=0.0, min_value=0.0, step=0.1)
 col1, col2 = st.columns(2)
 
